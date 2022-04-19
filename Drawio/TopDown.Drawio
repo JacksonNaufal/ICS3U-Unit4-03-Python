@@ -33,6 +33,33 @@
                 <mxCell id="6" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-280" y="-370" width="120" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;rounded=0;" edge="1" parent="1" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="-270" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="-270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="-270" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="-270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" target="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="-270" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint y="-270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="8" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="-370" width="120" height="60" as="geometry"/>
                 </mxCell>
@@ -64,20 +91,20 @@
                 <mxCell id="14" value="Show total sum of all numbers in loop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="790" y="-270" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="total = total x loop_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="390" y="-210" width="120" height="60" as="geometry"/>
+                <mxCell id="19" value="number = integer * integer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="loop_number = loop_number + 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="-210" width="120" height="60" as="geometry"/>
+                <mxCell id="20" value="for number = 0;&lt;br&gt;integer &amp;lt; number + 1;&lt;br&gt;integer++" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="if&amp;nbsp; integer &amp;lt;&amp;nbsp; 0&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-50" y="-210" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-60" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="&quot;Not Defined&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="-270" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="if&amp;nbsp; integer&amp;nbsp; == 0&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="90" y="-210" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="70" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="&quot;1&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="660" y="-270" width="120" height="60" as="geometry"/>
