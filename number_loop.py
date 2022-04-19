@@ -6,7 +6,6 @@
 
 
 def main():
-
     # This is aloop number adder with try and catch
     total = 0
     loop_number = 0
